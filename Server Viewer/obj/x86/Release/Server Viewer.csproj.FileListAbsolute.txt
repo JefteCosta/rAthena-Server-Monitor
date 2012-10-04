@@ -1,0 +1,26 @@
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\bin\Release\Server Viewer.exe
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\bin\Release\Server Viewer.pdb
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\Server_Viewer.Form1.resources
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\Server_Viewer.Properties.Resources.resources
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\Server Viewer.exe
+C:\Users\DarkIrata\AppData\Local\Temporary Projects\Server Viewer\obj\x86\Release\Server Viewer.pdb
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server_Viewer.Properties.Resources.resources
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server_Viewer.main.resources
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server_Viewer.forms.frm_option.resources
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\bin\Release\Server Monitor.exe.config
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\bin\Release\Server Monitor.exe
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\bin\Release\Server Monitor.pdb
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server Monitor.exe
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server Monitor.pdb
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server_Viewer.Forms.easteregg.resources
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server_Viewer.Forms.frm_about.resources
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\Server_Viewer.Forms.frm_errorlog.resources
+C:\Users\DarkIrata\Documents\Visual Studio 2010\ProjectsC#\Server Viewer\Server Viewer\obj\x86\Release\GenerateResource-ResGen.read.4.tlog
