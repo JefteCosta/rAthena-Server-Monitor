@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_errorlog));
             this.button1 = new System.Windows.Forms.Button();
-            frm_errorlog.tb_errors = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1

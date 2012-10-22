@@ -56,6 +56,7 @@ namespace Server_Viewer
                 handler.iniread();
             }
 
+            frm_errorlog.tb_errors = new System.Windows.Forms.TextBox();
             //tray.Visible = true;
 
             lb_debug.BackColor = Color.Transparent;
@@ -253,6 +254,7 @@ namespace Server_Viewer
                         #region information
                         if (e.Data.Contains("[Error]"))
                         {
+                            frm_errorlog.tb_errors.AppendText("[Login][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                             errormsgs = errormsgs + 1;
                             lb_error.Text = "Error: " + errormsgs;
                         }
@@ -324,7 +326,6 @@ namespace Server_Viewer
                                 }
                                 else if (e.Data.Contains("[Error]"))
                                 {
-                                    frm_errorlog.tb_errors.AppendText("[Login][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                                     handler.AppendText(RTBLogin, "[Error]", handler.Error);
                                     String OriEData = e.Data; String NewEData = OriEData.Remove(0, 7);
                                     RTBLogin.AppendText(NewEData + Environment.NewLine);
@@ -409,8 +410,6 @@ namespace Server_Viewer
                                 }
                                 else if (e.Data.Contains("[Error]"))
                                 {
-                                    frm_errorlog.tb_errors.AppendText("[Login][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
-
                                     try
                                     {
                                         handler.AppendText(RTBLogin, "[Error]", handler.Error);
@@ -461,10 +460,6 @@ namespace Server_Viewer
                         else
                         {
                             RTBLogin.AppendText(e.Data + Environment.NewLine);
-                            if (e.Data.Contains("[Error]"))
-                            {
-                                frm_errorlog.tb_errors.AppendText("[Login][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
-                            }
                         }
 
                     }));
@@ -479,6 +474,7 @@ namespace Server_Viewer
                         {
                             errormsgs = errormsgs + 1;
                             lb_error.Text = "Error: " + errormsgs;
+                            frm_errorlog.tb_errors.AppendText("[Char][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                         }
                         else if (e.Data.Contains("[Debug]"))
                         {
@@ -527,7 +523,6 @@ namespace Server_Viewer
                                 }
                                 else if (e.Data.Contains("[Error]"))
                                 {
-                                        frm_errorlog.tb_errors.AppendText("[Char][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                                     handler.AppendText(RTBChar, "[Error]", handler.Error);
                                     String OriEData = e.Data; String NewEData = OriEData.Remove(0, 7);
                                     RTBChar.AppendText(NewEData + Environment.NewLine);
@@ -612,7 +607,6 @@ namespace Server_Viewer
                                 }
                                 else if (e.Data.Contains("[Error]"))
                                 {
-                                        frm_errorlog.tb_errors.AppendText("[Char][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                                     try
                                     {
                                         handler.AppendText(RTBChar, "[Error]", handler.Error);
@@ -662,10 +656,6 @@ namespace Server_Viewer
                         }
                         else
                         {
-                            if (e.Data.Contains("[Error]"))
-                            {
-                                frm_errorlog.tb_errors.AppendText("[Char][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
-                            }
                             RTBChar.AppendText(e.Data + Environment.NewLine);
                         }
                     }));
@@ -679,7 +669,7 @@ namespace Server_Viewer
                         #region information
                         if (e.Data.Contains("[Error]"))
                         {
-                                frm_errorlog.tb_errors.AppendText("[Error][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
+                            frm_errorlog.tb_errors.AppendText("[Map][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                             errormsgs = errormsgs + 1;
                             lb_error.Text = "Error: " + errormsgs;
                         }
@@ -728,7 +718,6 @@ namespace Server_Viewer
                             }
                             else if (e.Data.Contains("[Error]"))
                             {
-                                    frm_errorlog.tb_errors.AppendText("[Error][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
                                 handler.AppendText(RTBMap, "[Error]", handler.Error);
                                 String OriEData = e.Data; String NewEData = OriEData.Remove(0, 7);
                                 RTBMap.AppendText(NewEData + Environment.NewLine);
@@ -748,20 +737,12 @@ namespace Server_Viewer
                             else
                             {
                                 RTBMap.AppendText(e.Data + Environment.NewLine);
-                                if (e.Data.Contains("[Error]"))
-                                {
-                                    frm_errorlog.tb_errors.AppendText("[Error][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
-                                }
                             }
                             #endregion
                         }
                         else
                         {
                             RTBMap.AppendText(e.Data + Environment.NewLine);
-                            if (e.Data.Contains("[Error]"))
-                            {
-                                frm_errorlog.tb_errors.AppendText("[Error][" + Convert.ToString(DateTime.Now.TimeOfDay.Hours + ":" + DateTime.Now.TimeOfDay.Minutes) + "] " + e.Data + Environment.NewLine);
-                            }
                         }
                     }));
 
